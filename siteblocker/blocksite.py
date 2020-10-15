@@ -1,7 +1,7 @@
 import os
 
 
-class BlockSite:
+class Siteblocker:
 
     def __init__(self):
         self.addSiteBlockerComment()
