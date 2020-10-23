@@ -1,14 +1,14 @@
 import os
 
 
-class Siteblocker:
+class Blocksite:
 
     def __init__(self):
         self.addSiteBlockerComment()
 
     def getListOfBlockedSite(self):
        startComment = self.indexOfSiteBlockerComment("#SiteBlockerSection")
-       endComment = self.indexOfSiteBlockerComment("#EndSiteBlockerSection") 
+       endComment = self.indexOfSiteBlockerComment("#EndSiteBlockerSection")
        listOfBlockedSite = []
        with open(self.getOSHostsFilePath(), 'r') as file:
            allLines = file.readlines()
