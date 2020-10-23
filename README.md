@@ -1,5 +1,5 @@
 # SiteBlocker
-You can block sites with this script.
+You can block sites with this script.\n
 **This script is not tested with windows**
 - [ ] Check with windows
 - [ ] Do app.py TODO(s)
